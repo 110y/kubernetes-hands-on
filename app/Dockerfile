@@ -13,7 +13,7 @@ FROM alpine:3.11.3
 
 COPY --from=builder /usr/bin/app /usr/bin/app
 RUN apk update
-RUN apk add --no-cache ca-certificates
+RUN apk add --no-cache ca-certificates curl
 
 EXPOSE 8080
 

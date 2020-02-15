@@ -15,4 +15,4 @@ spec:
     spec:
       containers:
         - name: app
-          image: 110y/kubernetes-hands-on:ddb7d46
+          image: 110y/kubernetes-hands-on:072737f
